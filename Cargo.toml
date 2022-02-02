@@ -1,0 +1,6 @@
+[workspace]
+members = ["crates/*"]
+
+[patch."https://github.com/khonsulabs/bonsaidb.git"]
+bonsaidb-core = { path = "../bonsaidb/crates/bonsaidb-core" }
+bonsaidb = { path = "../bonsaidb/crates/bonsaidb" }
